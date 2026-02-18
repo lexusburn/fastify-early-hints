@@ -83,7 +83,7 @@ function fastifyEarlyHints (fastify, opts, next) {
 }
 
 module.exports = fp(fastifyEarlyHints, {
-  fastify: '4.x',
+  fastify: '5.x',
   name: '@fastify/early-hints'
 })
 module.exports.default = fastifyEarlyHints
